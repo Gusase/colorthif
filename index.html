@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Thief</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+</head>
+
+<body id="canvas" class="min-h-screen grid place-center selection:bg-black selection:text-white">
+
+  <div class="max-w-xl mx-auto text-center flex-col flex justify-center">
+    <img src="/assets/pp9.png" alt="" id="pen" class="w-96 h-96 rounded-full object-cover" crossorigin="anonymous">
+    <p class="mt-2 text-xl">Lorem, ipsum.</p>
+  </div>
+  
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
